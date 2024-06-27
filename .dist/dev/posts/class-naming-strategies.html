@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<title>CSS class naming strategies for scaleable dasboard design</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta property="article:published_time" content="February 5, 2024 12:00 PM">
+<meta name="nue:components" content="/global/feedback.js">
+<link rel="shortcut icon" type="image/jpg" src="/img/favicon.jpg">
+<link href="/global/feedback.css" rel="stylesheet">
+<link href="/global/global.css" rel="stylesheet">
+<link href="/posts/post.css" rel="stylesheet">
+<link href="/posts/syntax.css" rel="stylesheet">
+<script src="/@nue/page-router.js" type="module"></script>
+<script src="/@nue/hotreload.js" type="module"></script>
+<script src="/@nue/mount.js" type="module"></script>
+    
+  </head>
+
+  <body>
+    <header class="flex">
+  <a class="flex homelink" href="/">
+    <img alt="Avatar image" width="64" height="64" src="/img/avatar.jpg">
+    <strong>Emma Bennet</strong>
+  </a>
+  <nav>
+    <a href="email:emma@bennet.co">
+      <img class="icon" width="30" height="30" src="/img/email.svg" alt="Emma Bennet email address">
+    </a><a href="//twitter.com/tipiirai">
+      <img class="icon" width="30" height="30" src="/img/twitter.svg" alt="Twitter profile">
+    </a><a href="//github.com/nuejs/">
+      <img class="icon" width="30" height="30" src="/img/github.svg" alt="Github projects">
+    </a><a href="//linkedin.com/in/tipiirai">
+      <img class="icon" width="30" height="30" src="/img/linkedin.svg" alt="LinkedIn profile">
+    </a>
+  </nav>
+</header>
+    <main>
+
+  <h1>CSS class naming strategies for scaleable dasboard design</h1>
+
+  <p>
+    <time>February 5, 2024</time> &#x2022; Content by AI &#x2022;
+    Photo credits: <a href="//dribbble.com/ui8">ui8</a>
+  </p>
+
+  <img class="hero" width="1000" height="800" src="img/dashboard-3.png" alt="Hero image for CSS class naming strategies for scaleable dasboard design">
+
+  <article>
+    <p>In web development, CSS and design work hand-in-hand to create compelling user experiences. CSS brings designs to life digitally, translating visual mockups into actual rendered elements. But CSS also informs the design process itself. Understanding its capabilities and limitations allows designers to craft effective layouts and interfaces.</p>
+<h2 id="keep-them-short"><a href="#keep-them-short" title="Permlink for &apos;Keep them short&apos;"></a>Keep them short</h2><p>When designing for the web, keeping CSS in mind from the start prevents frustration down the road. For example, layered graphical elements must be broken down into achievable HTML components. Typography and color schemes are also heavily influenced by CSS possibilities.</p>
+<blockquote>
+<p>Designers should have a strong handle on core CSS concepts like the box model, selectors, specificity and inheritance.</p>
+</blockquote>
+<p>When designing for the web, keeping CSS in mind from the start prevents frustration down the road. For example, layered graphical elements must be broken down into achievable HTML components. Typography and color schemes are also heavily influenced by CSS possibilities.</p>
+
+<nue-island island="code"><script type="application/json">{"wrapper":"shiny","content":["function toggleAttr(el, name, flag) {\n  flag ? el.setAttribute(name, 1) :  el.removeAttribute(name)\n}\n\nfunction restoreTabs(flags) {\n  const panels = $$('[role=tabpanel]')\n\n  $$('[role=tab]').forEach((el, i) => {\n    toggleAttr(el, 'aria-selected', flags[i])\n    toggleAttr(panels[i], 'hidden', !flags[i])\n  })\n}\n"]}</script></nue-island>
+<h2 id="exploit-the-power-of-selectors"><a href="#exploit-the-power-of-selectors" title="Permlink for &apos;Exploit the power of selectors&apos;"></a>Exploit the power of selectors</h2><p>On the development side, CSS itself involves visual design skills.Bringing a layout to life requires not just coding, but typographic, spacing and color sensibilities. CSS skills give developers control over the final look and feel.</p>
+<p><img src="img/dashboard-1.png" loading="lazy"></p>
+<p>Overall, CSS is a uniquely visual language, with a direct impact on user-facing design. By embracing its connection to the design process, both designers and developers can build interfaces that are engaging and &quot;CSS-native&quot;. The closer these roles work together, the better the end result. (edited)</p>
+
+<nue-island island="code"><script type="application/json">{"wrapper":"shiny sky","content":[".shiny {\n  background-image: linear-gradient(to bottom, #e879f9, #ec4899);\n  padding: 3em 0 0 3em;\n  border-radius: .8em;\n  overflow: hidden;\n  margin: 1.5em 0 2em;\n\n  [glow] {\n    padding: 2em;\n    margin: 0;\n  }\n}\n\n"]}</script></nue-island>
+<h2 id="conclusion"><a href="#conclusion" title="Permlink for &apos;Conclusion&apos;"></a>Conclusion</h2><p>In conclusion, thoughtfully naming CSS classes, IDs, and other selectors is an important part of keeping stylesheets scalable and maintainable. Use semantic, descriptive names that communicate what a selector is styling. Implement methodical naming conventions and structures for better organization</p>
+<p><img src="img/dashboard-2.png" loading="lazy"></p>
+<p>Avoid repetitive and overly specific names by separating structural styles from visual ones. And don&#x2019;t be afraid to chain multiple classes together for more modular and flexible selectors.</p>
+
+  </article>
+
+</main>
+    <footer class="flex">
+  <a href="/">&#xa9; Emma Bennet</a>
+  <strong>Less is More</strong>
+
+  
+  <img class="open-feedback" onclick="feedback.showModal()" src="/img/feedback.svg">
+  <nue-island id="feedback" island="feedback-dialog"></nue-island>
+</footer>
+  </body>
+
+</html>
